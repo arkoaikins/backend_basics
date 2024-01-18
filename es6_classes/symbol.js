@@ -12,3 +12,5 @@ const uniqueID = Symbol ('userID');
 user[uniqueID] = '12345';
 console.log(user[uniqueID])
 //so now a new property has been added to the user object using the symbol keyword 
+
+//In this example, userID is a unique property that won't collide with any other property names in the user object, even if they are named 'userID'.
