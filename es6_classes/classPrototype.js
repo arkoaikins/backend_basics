@@ -14,6 +14,7 @@ class myClass {
 }
 
 //adding a function using the prototype keyword
+// Which is modifying the function outside its inital initalization with the prototype keyword
 myClass.prototype.doubleValue = function () {
     console.log(this.value * 2);
 };
