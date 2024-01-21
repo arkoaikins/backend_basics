@@ -9,3 +9,5 @@ dog.makenoise('big sound', 'long sound')
 // now let's look at the static method which you do not need
 // the dog instance,you can use it straight away because it is wit the class itself
 console.log(Animal.cry())
+
+//Run it `npm run dev <filename>
