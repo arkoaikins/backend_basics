@@ -1,3 +1,7 @@
+/* 
+The symbol.iterator helps to customize the behaviour of iteration
+*/
+
 let collection = {
     items: [1, 2, 3],
     [Symbol.iterator]: function* () {
