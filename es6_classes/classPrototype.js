@@ -19,7 +19,7 @@ myClass.prototype.doubleValue = function () {
     console.log(this.value * 2);
 };
 
-//creating an instance of myClass
+//creating an instance(an object) of myClass
 const myObject = new myClass(5)
 
 //calling methods on the instance
