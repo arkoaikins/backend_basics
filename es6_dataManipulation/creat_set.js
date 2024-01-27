@@ -27,4 +27,4 @@ console.log(exampleSet.has(1)) //outputs true because 1 exists in our set
 
 //you can also clear the set or rest it using `.clear`
 exampleSet.clear();
-console.log(exampleSet);p //outputs  no value because it has been resetted
+console.log(exampleSet); //outputs  no value because it has been resetted
