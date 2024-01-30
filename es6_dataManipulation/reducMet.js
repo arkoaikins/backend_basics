@@ -4,4 +4,9 @@ const array = [1, 2, 3, 4];
 const sum = array.reduce((accumulator, currentValue) => accumulator +
 currentValue, 0);
 
-console.log(sum);
+console.log(sum);// outputs 10
+
+/*
+ In this example, reduce() is used to sum all the elements of
+ an array. The accumulator starts with the value 0
+ */
