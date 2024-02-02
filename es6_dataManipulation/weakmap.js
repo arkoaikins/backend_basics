@@ -1,4 +1,4 @@
-// Now let's create a new weakMap
+// Now let's create a new weakMap and see how weakmaps work
 const myWeakMap = new WeakMap();
 
 //now let's bring in the object(keys)
