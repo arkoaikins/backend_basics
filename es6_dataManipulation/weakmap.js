@@ -20,5 +20,5 @@ obj1  = null; // so this removes obj1 from the weakmap and here is where the wea
 /*So the entry associated with obj1 will be automatically removed fro the
 WeakMap during garbage collection
 */
-console.log(myWeakMap.get(obj2));// Output: value 2
+console.log(myWeakMap.get(obj2));// Output: value 2 
 console.log(myWeakMap.get(obj1)); // It has been removed from the weak map(output: undefined)
